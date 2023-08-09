@@ -1,4 +1,4 @@
-module github.com/meandrewdev/moneytube
+module github.com/Nicks344/moneytube
 
 go 1.19
 
