@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  moneytubedb:
+    container_name: moneytube_db
+    env_file: .env
+    image: mongo
+    ports:
+      - "127.0.0.1:${MONGO_PORT}:27017"
+    volumes:
+      - moneytube:/data/db
+      - ./mongo-init.sh:/docker-entrypoint-initdb.d/init.sh
+
+volumes:
+  moneytube:
+    driver: local

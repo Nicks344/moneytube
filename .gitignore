@@ -1,0 +1,46 @@
+node_modules
+package-lock.json
+yarn.lock
+MoneyTube-win32-x64
+MoneyTube-win32-x64.zip
+MoneyTube-win32-ia32
+MoneyTube-win32-ia32.zip
+*.exe
+*.log
+db.db
+config.json
+__debug_bin
+build
+temp
+Font
+CMap
+CIDFont
+
+# dependencies
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+server/backend/data
+resources
+moneytube
+update/update
+sync.pid
+client/core/data
+last-screen.jpg
+test-stealth.jpg
+pid
+chrome-win
