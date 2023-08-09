@@ -6,9 +6,9 @@ import (
 	"os"
 
 	"github.com/meandrewdev/logger"
-	"config"
-	"model"
-	"server"
+	"github.com/meandrewdev/moneytube/server/backend/src/config"
+	"github.com/meandrewdev/moneytube/server/backend/src/model"
+	"github.com/meandrewdev/moneytube/server/backend/src/server"
 )
 
 func main() {
