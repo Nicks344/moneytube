@@ -1,0 +1,17 @@
+{
+  "ae_exe": "",
+  "ae_lang": "RU",
+  "ae_memory_persent": 25,
+  "gs_api_key": "",
+  "vrs_api_key": "",
+  "ys_api_key": "",
+  "yt_api_key": "",
+  "api_key": "",
+  "ffmpeg_bin": "bin/ffmpeg.exe",
+  "ffprobe_bin": "bin/ffprobe.exe",
+  "show_browser": false,
+  "speech_pro_login": "",
+  "speech_pro_id": "",
+  "speech_pro_password": "",
+  "version": "2.0.0"
+}
